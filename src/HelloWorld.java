@@ -7,36 +7,36 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.print("> ");
 		String s = console.nextLine();
-		while (!s.equalsIgnoreCase("привет") ) {
-			System.out.println("Я тебя не понял. Повтори еще раз");
+		while (!s.equalsIgnoreCase("РїСЂРёРІРµС‚") ) {
+			System.out.println("РЇ С‚РµР±СЏ РЅРµ РїРѕРЅСЏР». РџРѕРІС‚РѕСЂРё РµС‰Рµ СЂР°Р·");
 			System.out.print("> ");
 			s = console.nextLine();
 		}
-		System.out.println("Привет, мир!");
+		System.out.println("РџСЂРёРІРµС‚, РјРёСЂ!");
 
 		System.out.print("> ");
 		String b = console.nextLine();
-		if (b.equalsIgnoreCase("Как дела?")) {
-			System.out.println("Нормально");
+		if (b.equalsIgnoreCase("РљР°Рє РґРµР»Р°?")) {
+			System.out.println("РќРѕСЂРјР°Р»СЊРЅРѕ");
 		} else {
-			System.out.println("Кстати, я умею считать, хочешь опробовать?");
+			System.out.println("РљСЃС‚Р°С‚Рё, СЏ СѓРјРµСЋ СЃС‡РёС‚Р°С‚СЊ, С…РѕС‡РµС€СЊ РѕРїСЂРѕР±РѕРІР°С‚СЊ?");
 		}
 
 		System.out.print("> ");
 		String c = console.nextLine();
-		if (c.equalsIgnoreCase("Да")) {
-			System.out.println("Ну, тогда будем умножать. Введи первое число ");
+		if (c.equalsIgnoreCase("Р”Р°")) {
+			System.out.println("РќСѓ, С‚РѕРіРґР° Р±СѓРґРµРј СѓРјРЅРѕР¶Р°С‚СЊ. Р’РІРµРґРё РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ ");
 			System.out.print("> ");
 			int v = console.nextInt();
-			System.out.println(" Введи второе число ");
+			System.out.println(" Р’РІРµРґРё РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ ");
 			System.out.print("> ");
 			int d = console.nextInt();
 			d = v * d;
 			System.out.println(d);
 
 		} else {
-			System.out.println("Ну, как хочешь. Нет так нет...");
+			System.out.println("РќСѓ, РєР°Рє С…РѕС‡РµС€СЊ. РќРµС‚ С‚Р°Рє РЅРµС‚...");
 		}
-
+		console.close();
 	}
 }
