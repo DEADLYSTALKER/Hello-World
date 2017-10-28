@@ -7,11 +7,13 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.print("> ");
 		String s = console.nextLine();
-		if (s.equalsIgnoreCase("привет")) {
-			System.out.println("Привет, мир!");
-		} else {
+		while (!s.equalsIgnoreCase("привет") ) {
 			System.out.println("Я тебя не понял. Повтори еще раз");
+			System.out.print("> ");
+			s = console.nextLine();
 		}
+		System.out.println("Привет, мир!");
+
 		System.out.print("> ");
 		String b = console.nextLine();
 		if (b.equalsIgnoreCase("Как дела?")) {
